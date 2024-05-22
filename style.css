@@ -243,6 +243,17 @@ div.navbar{
     height: 100%;
     object-fit: cover;
 }
+.p1:hover{
+    border-style: dotted;
+    border-width: 2px;
+}
+.p1 img:hover{
+    width: 95%;
+    height: 95%;
+    margin-top:4px;
+    margin-left: 4px;
+    border-radius: 2px;
+}
 .story h2{
     font-size: 14px;
     color: #fff;
@@ -318,7 +329,10 @@ div.navbar{
     border-radius: 3px;
     transform: skew(-10deg);
 }
-
+.tabs a:hover{
+    color: white;
+    background-color:orangered;
+}
 .row2{
     margin: -40px 150px 0px;
 }
