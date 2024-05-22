@@ -442,10 +442,11 @@ div.navbar{
     
 }
 footer {
-    background-image: url('https://www.iplt20.com/assets/images/footer-sparkel-bottom.svg');
+    background-image: url(./footer-sparkel-top.svg),url(./footer-sparkel-bottom.svg);
+    background-position: left top, right bottom 47px;
+    background-repeat: no-repeat, no-repeat;
     background-color: #001933;
     background-size: contain; 
-    background-repeat: no-repeat;
     color: #fff;
     padding: 20px 0;
     text-align: center;
