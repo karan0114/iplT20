@@ -314,6 +314,7 @@ div.navbar{
     border-radius: 3px;
     transform: skew(-10deg);
     font-family: helvetica_neuebold;
+    order: 1;
 }
 .tabs span{
     width: 100%;
@@ -328,10 +329,16 @@ div.navbar{
     transition: .4s;
     border-radius: 3px;
     transform: skew(-10deg);
+    order: 2;
 }
-.tabs a:hover{
+.h:hover a{
     color: white;
     background-color:orangered;
+    
+}
+.h:hover span{
+    top: 7px;
+    left: -10px;
 }
 .row2{
     margin: -40px 150px 0px;
