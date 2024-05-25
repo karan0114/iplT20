@@ -94,6 +94,10 @@ div.navbar{
     display: inline;
     font-family: bebas;
 }
+.items:hover a {
+    text-decoration: underline;
+    color: white;
+}
 .ads {
     margin: -66px 0px -262px 1159px;
 }
@@ -168,6 +172,13 @@ div.navbar{
     .play i {
         font-size: 18px;
         transform: skewX(15deg);
+}
+.home:hover .play{
+    background-color: white;
+    color: #ef4123;
+}
+.home:hover .play img{
+    color: #ef4123;
 }
 .share {
     display: flex;
